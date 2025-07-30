@@ -3,7 +3,19 @@
 
 @theme {
     --color-bgBlue-100: #C5DFFF;
-    --color-bgButton-blue: #061E3C;
+    --color-buttonBlue-100: #061E3C;
+    --color-blue-hover: #1057B0;
 
     --font-inter: Inter, sans-serif;
+
+    --animate-wiggle: wiggle 0.31s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+  }
 }
